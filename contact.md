@@ -18,27 +18,41 @@ description: Get in touch with Spirit Connect – Power Labs.
 
 <section class="section">
   <div class="container">
+    <h2>Get in Touch</h2>
+    <p class="lead" style="margin-bottom: 2rem;">
+      Have questions about our services or want to discuss a project? We'd love to hear from you.
+    </p>
+    
+    <div class="grid">
+      <div class="card">
+        <h3>Email</h3>
+        <p style="margin-bottom: 0.75rem;">For general inquiries and collaboration:</p>
+        <p style="margin: 0;">
+          <a href="mailto:info@spiritconnect.co.uk" style="font-size: 1.1rem; font-weight: 600;">
+            info@spiritconnect.co.uk
+          </a>
+        </p>
+      </div>
 
-<div class="grid">
-  <div class="card">
-    <h3>Email</h3>
-    <p>For general inquiries and collaboration:</p>
-    <p><a href="mailto:info@spiritconnect.co.uk">info@spiritconnect.co.uk</a></p>
+      <div class="card">
+        <h3>Location</h3>
+        <p style="margin-bottom: 0.75rem;">Our headquarters:</p>
+        <p style="margin: 0; font-size: 1.1rem;">
+          <strong>Cardiff, United Kingdom</strong>
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>LinkedIn</h3>
+        <p style="margin-bottom: 0.75rem;">Connect and follow updates:</p>
+        <p style="margin: 0;">
+          <a href="https://www.linkedin.com/in/fulong-li-6bb443127" target="_blank" style="font-size: 1.1rem; font-weight: 600;">
+            Spirit Connect – Power Labs
+          </a>
+        </p>
+      </div>
+    </div>
   </div>
-
-  <div class="card">
-    <h3>Location</h3>
-    <p>Cardiff, United Kingdom</p>
-  </div>
-
-  <div class="card">
-    <h3>LinkedIn</h3>
-    <p>Connect and follow updates:</p>
-    <p><a href="https://www.linkedin.com/in/fulong-li-6bb443127" target="_blank">Spirit Connect – Power Labs</a></p>
-  </div>
-</div>
-
-</div>
 </section>
 
 <section class="section">

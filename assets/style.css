@@ -66,16 +66,244 @@ a{color:var(--brand)} a:hover{color:var(--brand-dark);text-decoration:underline}
 @media(min-width:800px){.footer .cols{grid-template-columns:2fr 1fr 1fr}}
 .small{font-size:.9rem;color:#5b667a}
 
+/* Badge */
+.badge {
+  display: inline-block;
+  padding: 0.4rem 0.9rem;
+  background: rgba(24, 179, 198, 0.1);
+  color: var(--brand);
+  border: 1px solid rgba(24, 179, 198, 0.2);
+  border-radius: 999px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  letter-spacing: 0.02em;
+}
+
 /* Remove underline from navbar links */
 .nav a,
 .nav .drop-toggle,
 .nav .cta {
   text-decoration: none;
+  transition: all 0.2s ease;
 }
 
 .nav a:hover,
 .nav .drop-toggle:hover,
 .nav .cta:hover {
-  text-decoration: none; /* keep hover clean too */
+  text-decoration: none;
+  opacity: 0.85;
+}
+
+/* Enhanced card styling */
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  box-shadow: var(--shadow);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(10, 20, 40, 0.12);
+  border-color: rgba(24, 179, 198, 0.2);
+}
+
+.card h3 {
+  margin: 0 0 0.75rem;
+  font-size: 1.2rem;
+  color: var(--fg);
+}
+
+.card p {
+  color: var(--muted);
+  margin: 0;
+  line-height: 1.7;
+}
+
+.card img {
+  transition: transform 0.3s ease;
+}
+
+.card:hover img {
+  transform: scale(1.05);
+}
+
+/* Button enhancements */
+.btn {
+  display: inline-block;
+  border-radius: 12px;
+  padding: 0.8rem 1.5rem;
+  font-weight: 700;
+  box-shadow: var(--shadow);
+  border: 1px solid transparent;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 28px rgba(10, 20, 40, 0.15);
+}
+
+.btn-primary {
+  background: var(--brand);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: var(--brand-dark);
+  color: #fff;
+}
+
+.btn-ghost {
+  background: #fff;
+  color: var(--fg);
+  border-color: var(--border);
+}
+
+.btn-ghost:hover {
+  background: var(--card);
+  border-color: var(--brand);
+  color: var(--brand);
+}
+
+/* Enhanced typography */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--fg);
+}
+
+h2 {
+  margin-bottom: 1.5rem;
+}
+
+/* Section spacing improvements */
+.section {
+  padding: 4rem 0;
+}
+
+.section:first-of-type {
+  padding-top: 2rem;
+}
+
+/* Team card specific styling */
+.card[style*="text-align:center"] {
+  padding: 2rem;
+}
+
+.card[style*="text-align:center"] img {
+  margin: 0 auto 1.25rem;
+  display: block;
+  border: 3px solid var(--border);
+  transition: border-color 0.3s ease;
+}
+
+.card[style*="text-align:center"]:hover img {
+  border-color: var(--brand);
+}
+
+/* News card styling */
+.card .small {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: var(--brand);
+  font-size: 0.85rem;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Focus states for accessibility */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* Improved grid spacing */
+.grid {
+  margin-top: 2rem;
+}
+
+/* Hero improvements */
+.hero {
+  position: relative;
+  overflow: hidden;
+  padding: 7rem 0 5rem;
+}
+
+.hero .bg {
+  animation: pulse 8s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.8;
+  }
+}
+
+/* Footer improvements */
+.footer {
+  margin-top: 4rem;
+}
+
+.footer .brand img {
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+.footer a {
+  transition: color 0.2s ease;
+}
+
+.footer a:hover {
+  color: var(--brand);
+}
+
+/* Content improvements */
+.container {
+  padding-inline: 1rem;
+}
+
+/* Image styling improvements */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Partner logo styling */
+.grid img {
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.grid:hover img {
+  opacity: 1;
+}
+
+/* Responsive improvements */
+@media (max-width: 720px) {
+  .hero {
+    padding: 5rem 0 3rem;
+  }
+  
+  .section {
+    padding: 3rem 0;
+  }
+  
+  .card {
+    padding: 1.25rem;
+  }
 }
 
