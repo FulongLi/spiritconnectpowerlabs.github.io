@@ -67,6 +67,22 @@ description: About Spirit Connect – Power Labs — AI-assisted power electroni
         <img src="/images/general/SHI_logo.jpg" alt="Sumitomo Heavy Industries" style="max-width:160px;">
         <p class="small">Sumitomo Heavy Industries</p>
       </div>
+      <div>
+        <img src="/images/general/SHU_logo.jpg" alt="Shanghai University" style="max-width:160px;">
+        <p class="small">Shanghai University</p>
+      </div>
+      <div>
+        <img src="/images/general/PX_logo.png" alt="Panxin Technologies" style="max-width:160px;">
+        <p class="small">Panxin Technologies</p>
+      </div>
+      <div>
+        <img src="/images/general/LU_logo.png" alt="Loughborough University" style="max-width:160px;">
+        <p class="small">Loughborough University</p>
+      </div>
+      <div>
+        <img src="/images/general/UG_logo.png" alt="University of Glasgow" style="max-width:160px;">
+        <p class="small">University of Glasgow</p>
+      </div>
     </div>
   </div>
 </section>
